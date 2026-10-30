@@ -1,5 +1,11 @@
 # 🎓 Acadexa — Intelligent College Automation & Management Platform
 
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Vercel-black?style=for-the-badge&logo=vercel)](https://college-automation-system.vercel.app)
+[![API Status](https://img.shields.io/badge/Backend_API-Render-46E3B7?style=for-the-badge&logo=render)](https://acadexa-backend.onrender.com)
+
+> 🌐 **Live Website**: [https://college-automation-system.vercel.app](https://college-automation-system.vercel.app)  
+> 🔗 **Backend API**: [https://acadexa-backend.onrender.com](https://acadexa-backend.onrender.com)
+
 A modern, full-fledged web application designed to automate and streamline academic administration, faculty workflows, and student life. Built with a responsive React frontend, Node.js/Express REST API, and MongoDB with Mongoose ODM.
 
 ---
@@ -141,10 +147,10 @@ college-automation-system/
 
 ## 🚀 Cloud Deployment
 
-The application is pre-configured for 1-click cloud deployment:
-- **Backend API**: Ready for [Render](https://render.com) or [Railway](https://railway.app) (see [`render.yaml`](file:///c:/Users/LENOVO/Desktop/Coding/college-automation-system/render.yaml))
-- **Frontend SPA**: Ready for [Vercel](https://vercel.com) or [Netlify](https://netlify.com) (includes [`vercel.json`](file:///c:/Users/LENOVO/Desktop/Coding/college-automation-system/frontend/vercel.json) & Netlify redirects)
-- **Database**: Works with [MongoDB Atlas Free M0](https://www.mongodb.com/cloud/atlas)
+The application is deployed live and pre-configured for cloud environments:
+- **Live Frontend (Vercel)**: [https://college-automation-system.vercel.app](https://college-automation-system.vercel.app)
+- **Live Backend API (Render)**: [https://acadexa-backend.onrender.com](https://acadexa-backend.onrender.com)
+- **Database**: [MongoDB Atlas](https://www.mongodb.com/cloud/atlas)
 
 For the complete step-by-step walkthrough, see [DEPLOYMENT_GUIDE.md](file:///c:/Users/LENOVO/Desktop/Coding/college-automation-system/docs/DEPLOYMENT_GUIDE.md).
 
