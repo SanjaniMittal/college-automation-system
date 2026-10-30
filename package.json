@@ -1,0 +1,27 @@
+{
+  "name": "college-automation-system",
+  "version": "1.0.0",
+  "description": "Acadexa - Full-Fledged Intelligent College Management Platform",
+  "scripts": {
+    "install:all": "npm --prefix backend install && npm --prefix frontend install",
+    "seed": "npm --prefix backend run seed",
+    "server": "npm --prefix backend run dev",
+    "client": "npm --prefix frontend run dev",
+    "dev": "concurrently -n \"API,WEB\" -c \"cyan,magenta\" \"npm run server\" \"npm run client\"",
+    "build": "npm --prefix frontend run build"
+  },
+  "devDependencies": {
+    "concurrently": "^9.1.2"
+  },
+  "keywords": [
+    "college-automation",
+    "college-management",
+    "student-portal",
+    "faculty-portal",
+    "attendance",
+    "assignments",
+    "timetable"
+  ],
+  "author": "Acadexa Team",
+  "license": "MIT"
+}

@@ -1,0 +1,194 @@
+/* =========================
+   TABLETS
+========================= */
+
+@media (max-width: 1100px) {
+  .sidebar {
+    width: 230px;
+  }
+
+  .dashboard-content {
+    padding: 25px;
+  }
+
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .login-brand-section {
+    padding: 50px;
+  }
+
+  .login-heading {
+    font-size: 36px;
+  }
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media (max-width: 768px) {
+  .login-page {
+    display: block;
+  }
+
+  .login-brand-section {
+    min-height: auto;
+    padding: 35px 25px;
+  }
+
+  .login-brand-name {
+    margin-bottom: 25px;
+  }
+
+  .login-heading {
+    font-size: 30px;
+  }
+
+  .login-description {
+    font-size: 14px;
+  }
+
+  .login-features {
+    display: none;
+  }
+
+  .login-form-section {
+    padding: 30px 20px;
+  }
+
+  .login-card {
+    padding: 30px 22px;
+  }
+
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: -280px;
+    z-index: 1500;
+    width: 260px;
+    transition: left 0.25s ease;
+  }
+
+  .sidebar.sidebar-open {
+    left: 0;
+  }
+
+  .sidebar-close {
+    display: block;
+    margin-left: auto;
+    border: none;
+    background: transparent;
+    color: white;
+  }
+
+  .menu-button {
+    display: flex;
+  }
+
+  .navbar {
+    height: 70px;
+    padding: 0 18px;
+  }
+
+  .navbar-search {
+    display: none;
+  }
+
+  .navbar-profile div {
+    display: none;
+  }
+
+  .dashboard-content {
+    padding: 20px 15px;
+  }
+
+  .stats-grid {
+    grid-template-columns: 1fr;
+    gap: 14px;
+  }
+
+  .dashboard-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .page-header {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  .page-header-action {
+    width: 100%;
+  }
+
+  .form-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .form-group.full-width {
+    grid-column: auto;
+  }
+
+  .toast {
+    right: 15px;
+    bottom: 15px;
+    left: 15px;
+    min-width: auto;
+  }
+}
+
+
+/* =========================
+   SMALL MOBILE
+========================= */
+
+@media (max-width: 480px) {
+  .login-brand-section {
+    padding: 28px 20px;
+  }
+
+  .login-logo {
+    width: 50px;
+    height: 50px;
+  }
+
+  .login-brand-name {
+    font-size: 25px;
+  }
+
+  .login-heading {
+    font-size: 26px;
+  }
+
+  .login-form-section {
+    padding: 20px 12px;
+  }
+
+  .login-card {
+    padding: 25px 18px;
+  }
+
+  .login-title {
+    font-size: 25px;
+  }
+
+  .login-options {
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .chart-bars {
+    gap: 7px;
+  }
+
+  .chart-label {
+    font-size: 9px;
+  }
+}
